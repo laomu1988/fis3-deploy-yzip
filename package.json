@@ -1,0 +1,29 @@
+{
+  "name": "fis-deploy-zip",
+  "version": "0.1.0",
+  "description": "fis3生成zip文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fis",
+    "fis3",
+    "deploy",
+    "zip",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "yazl": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laomu1988/fis3-deploy-zip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laomu1988/fis3-deploy-zip/issues"
+  },
+  "homepage": "https://github.com/laomu1988/fis3-deploy-zip",
+  "readme": "README.md"
+}
