@@ -11,7 +11,7 @@ var path = require('path');
 module.exports = function (option, modified, files, next) {
     var zipfile = new yazl.ZipFile();
     if (!option || !option.zip) {
-        fis.log.error('[fis3-deploy-zip] need option [zip]')
+        fis.log.error('[fis3-deploy-yzip] need option [zip]')
     }
     // console.log('fis.project.getProjectPath():', fis.project.getProjectPath());
     var targetPath = path.resolve(fis.project.getProjectPath() + '/', option.zip);
@@ -23,9 +23,7 @@ module.exports = function (option, modified, files, next) {
 
     files.forEach(function (file) {
         // console.log(file);
-        if (!file.release) {
-            return;
-        }
+        if (!file.release) return;
         var name = (file.release).replace(/^\/*/g, '');
         var content = file.getContent();
         zipfile.addBuffer(typeof content === 'string' ? new Buffer(content) : content, name);

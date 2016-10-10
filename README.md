@@ -1,11 +1,11 @@
-# fis-deploy-zip
+# fis-deploy-yzip
 
 ## 使用
 
 安装
 
 ```bash
-npm i fis3-deploy-zip -g
+npm i fis3-deploy-yzip -g
 ```
 
 配置fis-conf.js
@@ -13,7 +13,7 @@ npm i fis3-deploy-zip -g
 ```javascript
 fis.media('zip').match('**', {
     deploy: [
-        fis.plugin('zip', {
+        fis.plugin('yzip', {
             zip: './output/output.zip'
         })
     ]
