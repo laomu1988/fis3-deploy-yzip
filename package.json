@@ -1,6 +1,6 @@
 {
   "name": "fis3-deploy-yzip",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "fis3生成zip文件,使用yazl",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,5 @@
   "bugs": {
     "url": "https://github.com/laomu1988/fis3-deploy-yzip/issues"
   },
-  "homepage": "https://github.com/laomu1988/fis3-deploy-yzip",
-  "readme": "README.md"
+  "homepage": "https://github.com/laomu1988/fis3-deploy-yzip"
 }

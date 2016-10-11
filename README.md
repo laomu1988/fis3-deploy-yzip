@@ -1,4 +1,5 @@
 # fis-deploy-yzip
+fis3生成zip文件,使用yzip
 
 ## 使用
 
